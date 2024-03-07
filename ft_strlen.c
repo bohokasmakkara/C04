@@ -9,6 +9,7 @@ int	ft_strlen(char *str)
 	}
 	return (i);
 }
+#include <stdio.h>
 int main()
 {
 	char	*str;
