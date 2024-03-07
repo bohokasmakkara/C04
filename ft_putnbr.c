@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include <stdio.h>
 
 void	ft_putnbr(int nb)
 {
@@ -23,4 +24,12 @@ void	ft_putnbr(int nb)
 		digit = '0' + nb % 10;
 	}
 	write(1, &digit, 1);
+}
+int main()
+{
+	int nb = -785;
+
+	ft_putnbr(nb);
+	write(1, "\n", 1);
+	return 0;
 }
