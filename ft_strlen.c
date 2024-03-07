@@ -9,3 +9,10 @@ int	ft_strlen(char *str)
 	}
 	return (i);
 }
+int main()
+{
+	char	*str;
+	str = "szerelem";
+	printf("%d", ft_strlen(str));
+	return(0);
+}
