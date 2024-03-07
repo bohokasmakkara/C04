@@ -22,3 +22,11 @@ int	ft_atoi(char *str)
 	}
 	return (sign * res);
 }
+#include <stdio.h>
+int main() {
+    char str[] = " ---+--+1234ab567";
+    int value = ft_atoi(str);
+    printf("%d", value);
+
+    return 0;
+}
